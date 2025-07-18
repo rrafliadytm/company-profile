@@ -44,7 +44,7 @@
   <main class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 mt-10 md:mt-16 flex-grow">
     <div class="md:flex md:space-x-20">
       <h1 class="text-4xl md:text-5xl font-normal max-w-xs md:max-w-sm leading-[1.1]">
-        Looking for preloved items?<br />Snap It, Love It, SecondLook
+        Looking For Preloved Fashion Items?<br />Snap It, Love It, SecondLook
       </h1>
       <div class="mt-8 md:mt-0 max-w-md">
         <div class="flex justify-between items-center mb-2">
@@ -58,66 +58,109 @@
         </p>
       </div>
     </div>
+
+    <!-- Carousel Section -->
     <div
-      class="mt-10 md:mt-16 grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8 max-w-7xl"
+    class="mt-10 md:mt-16 max-w-7xl mx-auto flex overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide"
     >
-      <div class="relative group cursor-pointer">
+    <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4">
+        <div class="relative group cursor-pointer">
         <img
-          alt="Soejiwo Tedjo Statue in Belgium Art Center, a tall dark stone statue with a pointed top"
+          alt="Dinosaur Jr T-Shirt, a vintage band tee displayed on a mannequin with a white gallery interior image overlay"
           class="w-full h-auto object-cover"
           height="400"
-          src="https://storage.googleapis.com/a1aa/image/0d30a794-2cd2-472c-830a-d63438c748a9.jpg"
+          src="<?= base_url('assets-admin') ?>/img/product-display-1.jpg"
           width="600"
         />
         <div
-          class="absolute bottom-4 left-4 text-white text-sm font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
+          class="absolute bottom-4 left-4 text-white text-l font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
         >
-          Belgium Art Center<br /><span class="text-xs font-normal"
-            >Soejiwo Tedjo Statue</span
+          Dinosaur Jr Black T-Shirt<br /><span class="text-xl font-normal"
+            >IDR 500.000,00</span
           >
         </div>
-      </div>
-      <div class="relative group cursor-pointer">
-        <img
-          alt="Kamplo Alamanda in Spain Art Center, a large stone sculpture of a face with a white gallery interior image overlay"
-          class="w-full h-auto object-cover"
-          height="400"
-          src="https://storage.googleapis.com/a1aa/image/077fdd15-3b18-4ccf-ffc5-4efd92b3b536.jpg"
-          width="600"
-        />
-        <div
-          class="absolute bottom-4 left-4 bg-white bg-opacity-90 px-3 py-2 rounded w-[calc(100%-2rem)]"
-        >
-          <p class="text-[10px] font-semibold text-gray-600 mb-1">
-            Spain Art Center Video
-          </p>
-          <p class="text-sm font-semibold text-black mb-1">Kamplo Alamanda</p>
-          <p class="text-xs font-normal text-gray-600">By Huangying</p>
         </div>
-        <button
-          aria-label="Go tour"
-          class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-black bg-opacity-60 text-white text-xs font-semibold px-4 py-1 rounded"
-        >
-          Go tour
-        </button>
-      </div>
-      <div class="relative group cursor-pointer">
-        <img
-          alt="Koes Amerrido Statue in Belgium Art Center, a dark stone statue of a face with a hand on the chin"
-          class="w-full h-auto object-cover"
-          height="400"
-          src="https://storage.googleapis.com/a1aa/image/db986893-b4f3-48b6-a53d-c42a751d9789.jpg"
-          width="600"
-        />
-        <div
-          class="absolute bottom-4 left-4 text-white text-sm font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
-        >
-          Belgium Art Center<br /><span class="text-xs font-normal"
-            >Koes Amerrido Statue</span
-          >
-        </div>
-      </div>
     </div>
+
+    <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4">
+        <div class="relative group cursor-pointer">
+        <img
+          alt="Vintage Baggy Jeans, a pair of denim jeans displayed on a wooden floor with a soft light"
+          class="w-full h-auto object-cover"
+          height="400"
+          src="<?= base_url('assets-admin') ?>/img/product-display-2.jpg"
+          width="600"
+        />
+        <div
+          class="absolute bottom-4 left-4 text-white text-l font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
+        >
+          Vintage Baggy Jeans<br /><span class="text-xl font-normal"
+            >IDR 350.000,00</span
+          >
+        </div>
+        </div>
+    </div>
+
+    <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4">
+        <div class="relative group cursor-pointer">
+        <img
+          alt="Ikhras White T-Shirt, a minimalist white t-shirt displayed on a simple background"
+          class="w-full h-auto object-cover"
+          height="400"
+          src="<?= base_url('assets-admin') ?>/img/product-display-3.jpg"
+          width="600"
+        />
+        <div
+          class="absolute bottom-4 left-4 text-white text-l font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
+        >
+          Ikhras White T-Shirt<br /><span class="text-xl font-normal"
+            >IDR 500.000,00</span
+          >
+        </div>
+        </div>
+    </div>
+
+    <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4">
+        <div class="relative group cursor-pointer">
+        <img
+          alt="Scowl Black T-Shirt, a stylish black t-shirt displayed on a mannequin with a modern gallery background"
+          class="w-full h-auto object-cover"
+          height="400"
+          src="<?= base_url('assets-admin') ?>/img/product-display-4.jpg"
+          width="600"
+        />
+        <div
+          class="absolute bottom-4 left-4 text-white text-l font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
+        >
+          Scowl Black T-Shirt<br /><span class="text-xl font-normal"
+            >IDR 500.000,00</span
+          >
+        </div>
+        </div>
+    </div>
+
+    <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4">
+        <div class="relative group cursor-pointer">
+        <img
+          alt="Vintage Black Work Jacket, a classic black jacket displayed on a mannequin with a soft light"
+          class="w-full h-auto object-cover"
+          height="400"
+          src="<?= base_url('assets-admin') ?>/img/product-display-5.jpg"
+          width="600"
+        />
+        <div
+          class="absolute bottom-4 left-4 text-white text-l font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
+        >
+          Vintage Black Work Jacket<br /><span class="text-xl font-normal"
+            >IDR 900.000,00</span
+          >
+        </div>
+        </div>
+    </div>
+
+    </div>
+    <!-- End Carousel Section -->
+
     <!-- Charts Section -->
     <section
       class="mt-16 max-w-7xl bg-white rounded-lg shadow p-6 grid grid-cols-1 md:grid-cols-2 gap-8"
