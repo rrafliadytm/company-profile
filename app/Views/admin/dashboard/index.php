@@ -1,9 +1,8 @@
-
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta content="width=device-width, initial-scale=1" name="viewport" />
-  <title> Company Profile</title>
+  <title> SecondLook | Steal Your Look!</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <link
@@ -28,11 +27,11 @@
     >
       <div class="text-white font-semibold text-lg">SecondLook</div>
       <ul class="hidden md:flex space-x-8 text-white text-sm font-normal">
-        <li><a class="hover:underline" href="<?= site_url('home') ?>">Home</a></li>
-        <li><a class="hover:underline" href="<?= site_url('how') ?>">How It Works</a></li>
-        <li><a class="hover:underline" href="<?= site_url('team') ?>">Our Team</a></li>
-        <li><a class="hover:underline" href="<?= site_url('social') ?>">Social Media</a></li>
-        <li><a class="hover:underline" href="<?= site_url('faqs') ?>">FAQs</a></li>
+        <li><a class="hover:underline" href="<?= site_url('Home') ?>">Home</a></li>
+        <li><a class="hover:underline" href="<?= site_url('How') ?>">How It Works</a></li>
+        <li><a class="hover:underline" href="<?= site_url('Team') ?>">Our Team</a></li>
+        <li><a class="hover:underline" href="<?= site_url('Social') ?>">Social Media</a></li>
+        <li><a class="hover:underline" href="<?= site_url('Faqs') ?>">FAQs</a></li>
       </ul>
       <a
         class="hidden md:inline-block bg-[#2563EB] text-white text-sm font-semibold px-5 py-2 rounded-full hover:bg-[#1e4bb8] transition"
@@ -44,7 +43,7 @@
   <main class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 mt-10 md:mt-16 flex-grow">
     <div class="md:flex md:space-x-20">
       <h1 class="text-4xl md:text-5xl font-normal max-w-xs md:max-w-sm leading-[1.1]">
-        Looking For Preloved Fashion Items?<br />Snap It, Love It, SecondLook
+        Looking For Preloved Fashion Items?<br />Snap It, Love It, SecondLook!
       </h1>
       <div class="mt-8 md:mt-0 max-w-md">
         <div class="flex justify-between items-center mb-2">
@@ -61,102 +60,141 @@
 
     <!-- Carousel Section -->
     <div
-    class="mt-10 md:mt-16 max-w-7xl mx-auto flex overflow-x-auto snap-x snap-mandatory scroll-smooth scrollbar-hide"
+      class="mt-10 md:mt-16 max-w-7xl mx-auto flex overflow-x-auto snap-x snap-mandatory"
+      style="scrollbar-width: none; -ms-overflow-style: none;"
     >
-    <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4">
-        <div class="relative group cursor-pointer">
-        <img
-          alt="Dinosaur Jr T-Shirt, a vintage band tee displayed on a mannequin with a white gallery interior image overlay"
-          class="w-full h-auto object-cover"
-          height="400"
-          src="<?= base_url('assets-admin') ?>/img/product-display-1.jpg"
-          width="600"
-        />
-        <div
-          class="absolute bottom-4 left-4 text-white text-l font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
-        >
-          Dinosaur Jr Black T-Shirt<br /><span class="text-xl font-normal"
-            >IDR 500.000,00</span
+      <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4 hover:scale-105 transition-transform duration-300">
+          <div class="relative group cursor-pointer">
+          <img
+            alt="Dinosaur Jr T-Shirt, a vintage band tee displayed on a mannequin with a white gallery interior image overlay"
+            class="w-full h-auto object-cover"
+            height="400"
+            src="<?= base_url('assets-admin') ?>/img/product-display-1.jpg"
+            width="600"
+          />
+          <div
+            class="absolute bottom-4 left-4 text-white text-l font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
           >
+            Dinosaur Jr Black T-Shirt<br /><span class="text-xl font-normal"
+              >IDR 500.000,00</span
+            >
+          </div>
         </div>
-        </div>
-    </div>
+      </div>
 
-    <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4">
-        <div class="relative group cursor-pointer">
-        <img
-          alt="Vintage Baggy Jeans, a pair of denim jeans displayed on a wooden floor with a soft light"
-          class="w-full h-auto object-cover"
-          height="400"
-          src="<?= base_url('assets-admin') ?>/img/product-display-2.jpg"
-          width="600"
-        />
-        <div
-          class="absolute bottom-4 left-4 text-white text-l font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
-        >
-          Vintage Baggy Jeans<br /><span class="text-xl font-normal"
-            >IDR 350.000,00</span
+      <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4 hover:scale-105 transition-transform duration-300">
+          <div class="relative group cursor-pointer">
+          <img
+            alt="Vintage Baggy Jeans, a pair of denim jeans displayed on a wooden floor with a soft light"
+            class="w-full h-auto object-cover"
+            height="400"
+            src="<?= base_url('assets-admin') ?>/img/product-display-2.jpg"
+            width="600"
+          />
+          <div
+            class="absolute bottom-4 left-4 text-white text-l font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
           >
+            Vintage Baggy Jeans<br /><span class="text-xl font-normal"
+              >IDR 350.000,00</span
+            >
+          </div>
         </div>
-        </div>
-    </div>
+      </div>
 
-    <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4">
-        <div class="relative group cursor-pointer">
-        <img
-          alt="Ikhras White T-Shirt, a minimalist white t-shirt displayed on a simple background"
-          class="w-full h-auto object-cover"
-          height="400"
-          src="<?= base_url('assets-admin') ?>/img/product-display-3.jpg"
-          width="600"
-        />
-        <div
-          class="absolute bottom-4 left-4 text-white text-l font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
-        >
-          Ikhras White T-Shirt<br /><span class="text-xl font-normal"
-            >IDR 500.000,00</span
+      <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4 hover:scale-105 transition-transform duration-300">
+          <div class="relative group cursor-pointer">
+          <img
+            alt="Ikhras White T-Shirt, a minimalist white t-shirt displayed on a simple background"
+            class="w-full h-auto object-cover"
+            height="400"
+            src="<?= base_url('assets-admin') ?>/img/product-display-3.jpg"
+            width="600"
+          />
+          <div
+            class="absolute bottom-4 left-4 text-white text-l font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
           >
+            Ikhras White T-Shirt<br /><span class="text-xl font-normal"
+              >IDR 500.000,00</span
+            >
+          </div>
         </div>
-        </div>
-    </div>
+      </div>
 
-    <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4">
-        <div class="relative group cursor-pointer">
-        <img
-          alt="Scowl Black T-Shirt, a stylish black t-shirt displayed on a mannequin with a modern gallery background"
-          class="w-full h-auto object-cover"
-          height="400"
-          src="<?= base_url('assets-admin') ?>/img/product-display-4.jpg"
-          width="600"
-        />
-        <div
-          class="absolute bottom-4 left-4 text-white text-l font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
-        >
-          Scowl Black T-Shirt<br /><span class="text-xl font-normal"
-            >IDR 500.000,00</span
+      <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4 hover:scale-105 transition-transform duration-300">
+          <div class="relative group cursor-pointer">
+          <img
+            alt="Scowl Black T-Shirt, a stylish black t-shirt displayed on a mannequin with a modern gallery background"
+            class="w-full h-auto object-cover"
+            height="400"
+            src="<?= base_url('assets-admin') ?>/img/product-display-4.jpg"
+            width="600"
+          />
+          <div
+            class="absolute bottom-4 left-4 text-white text-l font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
           >
+            Scowl Black T-Shirt<br /><span class="text-xl font-normal"
+              >IDR 500.000,00</span
+            >
+          </div>
         </div>
-        </div>
-    </div>
+      </div>
 
-    <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4">
-        <div class="relative group cursor-pointer">
-        <img
-          alt="Vintage Black Work Jacket, a classic black jacket displayed on a mannequin with a soft light"
-          class="w-full h-auto object-cover"
-          height="400"
-          src="<?= base_url('assets-admin') ?>/img/product-display-5.jpg"
-          width="600"
-        />
-        <div
-          class="absolute bottom-4 left-4 text-white text-l font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
-        >
-          Vintage Black Work Jacket<br /><span class="text-xl font-normal"
-            >IDR 900.000,00</span
+      <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4 hover:scale-105 transition-transform duration-300">
+          <div class="relative group cursor-pointer">
+          <img
+            alt="Vintage Black Work Jacket, a classic black jacket displayed on a mannequin with a soft light"
+            class="w-full h-auto object-cover"
+            height="400"
+            src="<?= base_url('assets-admin') ?>/img/product-display-5.jpg"
+            width="600"
+          />
+          <div
+            class="absolute bottom-4 left-4 text-white text-l font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
           >
+            Vintage Black Work Jacket<br /><span class="text-xl font-normal"
+              >IDR 900.000,00</span
+            >
+          </div>
         </div>
+      </div>
+
+      <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4 hover:scale-105 transition-transform duration-300">
+          <div class="relative group cursor-pointer">
+          <img
+            alt="Vintage Green Cardigan, a cozy green cardigan displayed on a mannequin with a soft light"
+            class="w-full h-auto object-cover"
+            height="400"
+            src="<?= base_url('assets-admin') ?>/img/product-display-6.jpg"
+            width="600"
+          />
+          <div
+            class="absolute bottom-4 left-4 text-white text-l font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
+          >
+            Vintage Green Cardigan <br /><span class="text-xl font-normal"
+              >IDR 300.000,00</span
+            >
+          </div>
         </div>
-    </div>
+      </div>
+
+      <div class="snap-center flex-shrink-0 w-full md:w-1/3 p-4 hover:scale-105 transition-transform duration-300">
+          <div class="relative group cursor-pointer">
+          <img
+            alt="Blue Gingham Pattern Flannel Shirt, a stylish flannel shirt displayed on a mannequin with a soft light"
+            class="w-full h-auto object-cover"
+            height="400"
+            src="<?= base_url('assets-admin') ?>/img/product-display-7.jpg"
+            width="600"
+          />
+          <div
+            class="absolute bottom-4 left-4 text-white text-l font-semibold bg-black bg-opacity-60 px-3 py-1 rounded"
+          >
+            Blue Gingham Pattern Flannel Shirt<br /><span class="text-xl font-normal"
+              >IDR 400.000,00</span
+            >
+          </div>
+        </div>
+      </div>
 
     </div>
     <!-- End Carousel Section -->
