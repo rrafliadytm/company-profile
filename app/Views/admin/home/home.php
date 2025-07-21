@@ -28,10 +28,10 @@
       <div class="text-white font-semibold text-lg">SecondLook</div>
       <ul class="hidden md:flex space-x-8 text-white text-sm font-normal">
         <li><a class="hover:underline" href="<?= site_url('home') ?>">Home</a></li>
-        <li><a class="hover:underline" href="<?= site_url('How') ?>">How It Works</a></li>
-        <li><a class="hover:underline" href="<?= site_url('Team') ?>">Our Team</a></li>
-        <li><a class="hover:underline" href="<?= site_url('Social') ?>">Social Media</a></li>
-        <li><a class="hover:underline" href="<?= site_url('Faqs') ?>">FAQs</a></li>
+        <li><a class="hover:underline" href="<?= site_url('how') ?>">How It Works</a></li>
+        <li><a class="hover:underline" href="<?= site_url('team') ?>">Our Team</a></li>
+        <li><a class="hover:underline" href="<?= site_url('social') ?>">Social Media</a></li>
+        <li><a class="hover:underline" href="<?= site_url('faqs') ?>">FAQs</a></li>
       </ul>
       <a
         class="hidden md:inline-block bg-[#2563EB] text-white text-sm font-semibold px-5 py-2 rounded-full hover:bg-[#1e4bb8] transition"

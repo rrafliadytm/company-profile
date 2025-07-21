@@ -28,10 +28,10 @@
       <div class="text-white font-semibold text-lg">SecondLook</div>
       <ul class="hidden md:flex space-x-8 text-white text-sm font-normal">
         <li><a class="hover:underline" href="<?= site_url('home') ?>">Home</a></li>
-        <li><a class="hover:underline" href="<?= site_url('How') ?>">How It Works</a></li>
-        <li><a class="hover:underline" href="<?= site_url('Team') ?>">Our Team</a></li>
-        <li><a class="hover:underline" href="<?= site_url('Social') ?>">Social Media</a></li>
-        <li><a class="hover:underline" href="<?= site_url('Faqs') ?>">FAQs</a></li>
+        <li><a class="hover:underline" href="<?= site_url('how') ?>">How It Works</a></li>
+        <li><a class="hover:underline" href="<?= site_url('team') ?>">Our Team</a></li>
+        <li><a class="hover:underline" href="<?= site_url('social') ?>">Social Media</a></li>
+        <li><a class="hover:underline" href="<?= site_url('faqs') ?>">FAQs</a></li>
       </ul>
       <a
         class="hidden md:inline-block bg-[#2563EB] text-white text-sm font-semibold px-5 py-2 rounded-full hover:bg-[#1e4bb8] transition"
@@ -40,7 +40,7 @@
       >
     </nav>
   </header>
-  <main class="container mx-auto px-4 py-8">
+  <main class="container mx-auto px-4 py-8 max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 mt-10 md:mt-16 flex-grow"> 
       <h1 class="text-2xl font-bold mb-4">Social Media Links</h1>
       <!-- Add your content here -->
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
