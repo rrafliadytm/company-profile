@@ -6,6 +6,9 @@ class How extends BaseController
 {
     public function index(): string
     {
-        return view('admin/how/how');
+        $data = [
+            "title" => "SecondLook | How It Works?"
+        ];
+        return view('dashboard/how/how', $data);
     }
 }

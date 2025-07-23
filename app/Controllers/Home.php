@@ -6,6 +6,9 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('admin/home/home');
+        $data = [
+            "title" => "SecondLook | Steal Your Look!"
+        ];
+        return view('dashboard/home/home', $data);
     }
 }

@@ -6,6 +6,9 @@ class Team extends BaseController
 {
     public function index(): string
     {
-        return view('admin/team/team');
+        $data = [
+            "title" => "SecondLook | Our Team's"
+        ];
+        return view('dashboard/team/team', $data);
     }
 }
