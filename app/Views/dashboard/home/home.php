@@ -17,7 +17,16 @@
             convenience and trust. We help you rediscover the value of gently used items through clear and informative visual displays. With the concept of “look once more, find new opportunities”, SecondLook 
             is the place for anyone who wants to shop or sell smarter and more sustainably.
         </p>
+        <a
+        class="hidden md:inline-block bg-[#2563EB] text-white text-sm font-semibold px-6 py-3 rounded-full hover:bg-[#1e4bb8] transition mt-5"
+        href="<?= site_url('contact') ?>"
+        >Contact Us</a
+        >
       </div>
+    </div>
+    
+    <div class="mx-auto mt-8 sm:mt-8 max-w-7xl md:flex md:justify-center">
+    
     </div>
     
     <!-- Carousel Section -->
