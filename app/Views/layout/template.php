@@ -24,21 +24,20 @@
 
 <body class="bg-white text-black flex flex-col min-h-screen">
   <!-- Header Section -->
-  <header class="bg-[#121212]" style="position: sticky; top: 0; z-index: 50;">
+  <header class="bg-[#121212] sticky top-0 z-50">
     <nav
-      class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 flex items-center justify-between h-14"
+      class="max-w-7l mx-auto px-6 sm:px-8 lg:px-12 flex items-center justify-between h-24"
     >
-      <div class="text-white font-semibold text-lg"><a href="<?= site_url('home') ?>">SecondLook</a></div>
-      <ul class="hidden md:flex space-x-9 text-white text-sm font-normal">
+      <div class="text-white font-semibold text-4xl"><a href="<?= site_url('home') ?>">SecondLook</a></div>
+      <ul class="hidden md:flex space-x-9 text-white text-2sm mr-24 font-normal">
         <li><a class="hover:underline" href="<?= site_url('home') ?>">Home</a></li>
-        <li><a class="hover:underline" href="<?= site_url('how') ?>">How It Works</a></li>
         <li><a class="hover:underline" href="<?= site_url('team') ?>">Our Team</a></li>
-        <li><a class="hover:underline" href="<?= site_url('faqs') ?>">FAQs</a></li>
+        <li><a class="hover:underline" href="<?= site_url('product') ?>">Product</a></li>
       </ul>
-      <ul class="hidden md:flex space-x-9 text-white text-sm font-normal">
+      <ul class="hidden md:flex space-x-5 text-white text-sm font-normal">
+        <li><a href="https://linkedin.com/"><i class="fab fa-linkedin-in text-white text-2xl"></i></a></li>
         <li><a href="https://facebook.com/"><i class="fab fa-facebook-f text-white text-2xl"></i></a></li>
         <li><a href="https://instagram.com/"><i class="fab fa-instagram text-white text-2xl"></i></i></a></li>
-        <li><a href="https://linkedin.com/"><i class="fab fa-linkedin-in text-white text-2xl"></i></a></li>
       </ul>
     </nav>
   </header>

@@ -9,6 +9,6 @@ $routes->get('/', 'Home::index');
 $routes->get('home', 'Home::index');
 $routes->get('how', 'How::index');
 $routes->get('team', 'Team::index');
-$routes->get('faqs', 'Faqs::index');
+$routes->get('product', 'Product::index');
 $routes->get('contact', 'Contact::index');
 
